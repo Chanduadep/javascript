@@ -31,3 +31,9 @@ console.log(output);
     
 // let output=findAddOfFive(index,target);
 // console.log(output);
+
+for(var i=0;i<3;i++){
+    for(j=0;j<3;j++){
+        console.log(i,"i",j,"j");
+    }
+}
