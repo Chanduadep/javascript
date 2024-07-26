@@ -32,5 +32,5 @@
 // if(number1<=number2){
 //     console.log("500 is not less than 300");
 // } else{
-//     console.log("500 is less than 300");
+//     console.log("500 is greater than 300");
 // }
