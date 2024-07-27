@@ -37,3 +37,14 @@ for(var i=0;i<3;i++){
         console.log(i,"i",j,"j");
     }
 }
+
+var todos = ["eat breakfast", "eat lunch", "eat dinner"];
+
+function deleteTodo(todos,index) {
+// console.log(index)
+    todos.splice(index, 1,"eat Something")
+    return todos;
+}
+
+const result = deleteTodo(todos,2);
+console.log(result);

@@ -42,12 +42,12 @@
 // console.log(subjects.slice(3,-2));
 // console.log(subjects.slice(-2));
 
-// let subjects=["Maths","Science","Politics","History","English"];
+let subjects=["Maths","Science","Politics","History","English"];
 // // subjects.splice(2,0,"Marathi");
 // // subjects.splice(2,1,"Marathi");
 // // subjects.splice(4,1,"Economics");
-// subjects.splice(2,0,"Politics");
-// console.log(subjects);
+subjects.splice(2,2,"java");
+console.log(subjects);
 
 // var students = ["rahul", "nehal", "ali", "amod", "adep"];
 // var target="adep";
@@ -66,18 +66,18 @@
 // }
 // // console.log("output:",index);
 
-var students = ["rahul", "nehal", "ali", "amod", "adep"];
-var target = "adep";
-function findOutIndex(students) {
+// var students = ["rahul", "nehal", "ali", "amod", "adep"];
+// var target = "adep";
+// function findOutIndex(students) {
 
-    for (i = 0; i < students.length; i++) {
-        if (students[i] === target) {
+//     for (i = 0; i < students.length; i++) {
+//         if (students[i] === target) {
 
-            return i;
-        }
-    }
-    return -1;//if target is not found
-}
-const output = findOutIndex(students);
-console.log("output:", output);
+//             return i;
+//         }
+//     }
+//     return -1;//if target is not found
+// }
+// const output = findOutIndex(students);
+// console.log("output:", output);
 
