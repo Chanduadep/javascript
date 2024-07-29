@@ -69,21 +69,20 @@ var string="bhavana";
 function findDuplicates(string){
     var output={};
     var largeCount=0;
-    var repeatedletter={};
-    // console.log(string,"string");
+    var repeatedLetter='';
     for(let i=0;i<string.length;i++){
-        // console.log(string[i]);
-        if(output[string[i]]== undefined){
+        if(output[string[i]]==undefined){
             output[string[i]]=1;
         }else{
             output[string[i]]++;
         }
         if(output[string[i]]>largeCount){
             largeCount=output[string[i]];
-            repeatedletter=string[i];
+            repeatedLetter=string[i];
         }
     }
-    // console.log(output);
-    console.log(repeatedletter);
+    return {repeatedLetter,largeCount};
 }
-findDuplicates(string);
+let result=findDuplicates(string);
+console.log(`The most repeated letter is '${result.repeatedLetter}'
+     and it appears ${result.largeCount} times.`);
