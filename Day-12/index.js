@@ -65,11 +65,11 @@
 
 //Q Given an string find out numbers of repetation for single letter and return a letter which having most of reperation .
 
-var string="Balalaxmi";
+var string="bhavana";
 function findDuplicates(string){
     var output={};
     var largeCount=0;
-    var repeatedletter='';
+    var repeatedletter={};
     // console.log(string,"string");
     for(let i=0;i<string.length;i++){
         // console.log(string[i]);
